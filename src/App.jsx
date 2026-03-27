@@ -100,10 +100,9 @@ function getRegion(team) {
 // ── Options builder ───────────────────────────────────────────────────────────
 
 function buildOptions(currentTeam, count, _unused, allTeams) {
-  const base = [...(currentTeam?.options || [])];
-  if (count <= base.length) return base;
+  if (!allTeams || allTeams.length === 0) return [currentTeam?.team].filter(Boolean);
 
-  const existing = new Set(base);
+  const correctAnswer = currentTeam?.team;
   const region = getRegion(currentTeam);
 
   // Pool: same region for continental tournaments, all teams for World Cup
@@ -111,26 +110,22 @@ function buildOptions(currentTeam, count, _unused, allTeams) {
     ? allTeams
     : allTeams.filter(t => getRegion(t) === region);
 
-  const extras = new Set();
+  // Collect distinct team names from the pool, excluding the correct answer
+  const distractorPool = [...new Set(
+    pool.map(t => t.team).filter(name => name !== correctAnswer)
+  )].sort(() => Math.random() - 0.5);
 
-  const addFromList = (list) => {
-    const shuffled = [...list].sort(() => Math.random() - 0.5);
-    for (const item of shuffled) {
-      if (base.length + extras.size >= count) break;
-      const name = typeof item === 'string' ? item : item.team;
-      if (!existing.has(name) && !extras.has(name)) extras.add(name);
-    }
-  };
+  // Fallback: if pool is too small, add from all teams
+  const fallbackPool = [...new Set(
+    allTeams.map(t => t.team).filter(name => name !== correctAnswer && !distractorPool.includes(name))
+  )].sort(() => Math.random() - 0.5);
 
-  // 1. Same region pool
-  addFromList(pool.filter(t => !existing.has(t.team)));
-
-  // 2. Fallback: all teams (if region doesn't have enough distinct names)
-  if (base.length + extras.size < count) {
-    addFromList(allTeams.filter(t => !existing.has(t.team) && !extras.has(t.team)));
+  const distractors = distractorPool.slice(0, count - 1);
+  if (distractors.length < count - 1) {
+    distractors.push(...fallbackPool.slice(0, count - 1 - distractors.length));
   }
 
-  return [...base, ...Array.from(extras)];
+  return [correctAnswer, ...distractors];
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
