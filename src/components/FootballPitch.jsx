@@ -273,21 +273,13 @@ const LOGO_MAP = {
   // ── Argentine ─────────────────────────────────────────────────
   'rizesporkulubu.com.tr':    WP + '%C3%87aykur_Rizespor_logo.svg',
   'futurefc.com':             WP + 'Modern_Future_FC_logo.svg',
-  'fcbayern.com':             WP + 'FC_Bayern_M%C3%BCnchen_logo_(2017).svg',
-  'eintracht.de':             WP + 'Eintracht_Frankfurt_Logo.svg',
-  'fc-koeln.de':              WP + '1._FC_K%C3%B6ln_logo.svg',
-  'vfb.de':                   WP + 'VfB_Stuttgart_1893_Logo.svg',
   'scfreiburg.com':           WP + 'SC_Freiburg_logo.svg',
   'herthabsc.de':             WP + 'Hertha_BSC_Logo_2012.svg',
-  'borussia.de':              WP + 'Borussia_M%C3%B6nchengladbach_logo.svg',
-  'hsv.de':                   WP + 'Hamburger_SV_logo.svg',
-  'werder.de':                WP + 'Werder_Bremen_logo.svg',
   'clubolimpia.com.py':       WP + 'Club_Olimpia_logo.svg',
   'clubdeportivotenerife.es': WP + 'CD_Tenerife_logo.png',
   'fc-zenit.ru':              WP + 'FC_Zenit_Saint_Petersburg_logo.svg',
   'fcdm.ru':                  WP + 'FC_Dynamo_Moscow_logo.svg',
   'rubin-kazan.ru':           WP + 'FC_Rubin_Kazan_logo.svg',
-  'fck.de':                   WP + '1._FC_Kaiserslautern_Logo.svg',
   'cafc.co.uk':               WP + 'Charlton_Athletic_FC_logo.svg',
   'cardiffcityfc.co.uk':      WP + 'Cardiff_City_FC_logo.svg',
   'levski.bg':                WP + 'PFC_Levski_Sofia_logo.svg',
@@ -302,7 +294,6 @@ const LOGO_MAP = {
   'fcdinamo.ro':              WP + 'FC_Dinamo_1948_Bucure%C3%B8ti.svg',
   'sporting.be':              WP + 'KSC_Lokeren_Oost-Vlaanderen.svg',
   'rbk.no':                   WP + 'Rosenborg_BK_logo.svg',
-  'fcb.ch':                   WP + 'FC_Basel_logo.svg',
   'vasco.com.br':             WP + 'CRVascoDaGama.svg',
   'bjk.com.tr':               WP + 'Be%C5%9Fikta%C5%9F_JK_Logo.svg',
   'fcdynamo.com':             WP + 'FC_Dynamo_Kyiv_logo.svg',
@@ -382,20 +373,14 @@ const LOGO_MAP = {
   'middlesbroughfc.com':      WP + 'Middlesbrough_FC_logo.svg',
   'boltonwanderersfc.co.uk':  WP + 'Bolton_Wanderers_FC_logo.svg',
   'charltonathletic.com':     WP + 'Charlton_Athletic_FC_logo.svg',
-  'fulhamfc.com':             WP + 'Fulham_FC_logo.svg',
 
   // ── Brazilian (Iconic) ──────────────────────────────────────────
   'santosfc.com.br':          WP + 'Santos_FC_logo.svg',
   'cruzeiro.com.br':          WP + 'Cruzeiro_Esporte_Clube_logo.svg',
   'fluminense.com.br':        WP + 'Fluminense_FC_logo.svg',
   'botafogo.com.br':          WP + 'Botafogo_de_Futebol_e_Regatas_logo.svg',
-  'corinthians.com.br':       WP + 'Sport_Club_Corinthians_Paulista_crest.svg',
-  'palmeiras.com.br':         WP + 'Sociedade_Esportiva_Palmeiras_logo.svg',
-  'saopaulofc.net':           WP + 'Sao_Paulo_Futebol_Clube.svg',
-  'flamengo.com.br':          WP + 'Clube_de_Regatas_do_Flamengo_logo.svg',
   'gremio.net':               WP + 'Gremio_logo.svg',
   'internacional.com.br':     WP + 'Sport_Club_Internacional_logo.svg',
-  'atletico.com.br':          WP + 'Clube_Atl%C3%A9tico_Mineiro_logo.svg',
 
   // ── Uruguayan / Chilean / South American ─────────────────────────
   'penarol.org':              WP + 'Pe%C3%B1arol_logo.svg',
@@ -484,11 +469,8 @@ const LOGO_MAP = {
 
   // ── Corrected / Added ──────────────────────────────────────
   'pfc-cska.com':             WP + 'CSKA_Moscow_logo.svg',
-  'dorogifc.hu':              'https://images.seeklogo.com/logo-png/41/1/dorogi-banyasz-sk-mid-1950s-logo-png_seeklogo-411602.png',
-  'rubin-kazan.ru':           WP + 'FC_Rubin_Kazan_logo.svg',
   'pfc-zenit.ru':             WP + 'FC_Zenit_1925_logo.svg',
   'spartak.com':              WP + 'FC_Spartak_Moscow_logo.svg',
-  'fcdm.ru':                  WP + 'FC_Dynamo_Moscow_logo.svg',
 };
 
 
