@@ -1,0 +1,1357 @@
+[
+  {
+    "domain": "chicagofirefc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Chicago_Fire_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "alshabab.sa",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Shabab_FC_(Riyadh)_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "realoviedo.es",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_Oviedo_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "udalmeriasad.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/UD_Almer%C3%ADa_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubnecaxa.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Necaxa_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sundownsfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Mamelodi_Sundowns_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "asse.fr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Logo_AS_Saint-%C3%89tienne.svg",
+    "status": 429
+  },
+  {
+    "domain": "asnl.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/AS_Nancy-Lorraine_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "realzaragoza.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_Zaragoza_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "ga-eagles.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Go_Ahead_Eagles_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "willem-ii.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Willem_II_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "herthabsc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Hertha_BSC_Logo_2012.svg",
+    "status": 429
+  },
+  {
+    "domain": "alanyaspor.org.tr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Alanyaspor_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "adodenhaag.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/ADO_Den_Haag_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cssa.fr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CS_Sedan_Ardennes_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "est.org.tn",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/EST_New_Logo_2012.png",
+    "status": 429
+  },
+  {
+    "domain": "stade-tunisien.tn",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Enstadetunisien.png",
+    "status": 429
+  },
+  {
+    "domain": "gaziantepfk.org",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Gaziantepspor_kulubu.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcporto.pt",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Porto.svg",
+    "status": 429
+  },
+  {
+    "domain": "slbenfica.pt",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Benficalogo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sporting.pt",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sporting_CP_%E2%80%93_Logo.png",
+    "status": 429
+  },
+  {
+    "domain": "ajax.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Ajax_Amsterdam.svg",
+    "status": 429
+  },
+  {
+    "domain": "psv.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/PSV_Eindhoven.svg",
+    "status": 429
+  },
+  {
+    "domain": "feyenoord.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Feyenoord_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "az.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/AZ_Alkmaar.svg",
+    "status": 429
+  },
+  {
+    "domain": "rsca.be",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/RSC_Anderlecht_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubbrugge.be",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Brugge_KV_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "galatasaray.org",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Galatasaray_Sports_Club_Logo.png",
+    "status": 429
+  },
+  {
+    "domain": "fenerbahce.org",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Fenerbah%C3%A7e_SK_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "besiktas.com.tr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Besiktas_JK_%28v2%29.svg",
+    "status": 429
+  },
+  {
+    "domain": "trabzonspor.org.tr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Trabzonspor_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "rangers.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Rangers_FC.svg",
+    "status": 429
+  },
+  {
+    "domain": "celticfc.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Celtic_FC.svg",
+    "status": 429
+  },
+  {
+    "domain": "gnkdinamo.hr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/GNK_Dinamo_Zagreb.svg",
+    "status": 429
+  },
+  {
+    "domain": "hnkhajduk.hr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Hajduk_Split.svg",
+    "status": 429
+  },
+  {
+    "domain": "brondby.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Br%C3%B8ndby_IF_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcm.dk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Midtjylland_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "paofc.gr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Panathinaikos_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "pao.gr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Panathinaikos_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "aek.gr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/AEK_Athens_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "olympiakos.org",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Olympiacos_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "alnassr.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Nassr_FC_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "alhilal.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Hilal_FC.svg",
+    "status": 429
+  },
+  {
+    "domain": "alettifaq.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Ettifaq.svg",
+    "status": 429
+  },
+  {
+    "domain": "alfateh.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Fateh_SC_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "alittihadclub.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Ittihad_Club_(Jeddah)_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "al-ittihad.com.sa",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Ittihad_Club_(Jeddah)_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "alqadsiah.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Qadsiah_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "flamengo.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Flamengo_braz_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "palmeiras.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Palmeiras_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "corinthians.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sport_Club_Corinthians_Paulista_crest.svg",
+    "status": 429
+  },
+  {
+    "domain": "saopaulofc.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sao_Paulo_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "atletico.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Atletico_Mineiro_escudo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubamerica.com.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Am%C3%A9rica_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cruzazulfc.com.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Cruz_Azul_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "tuzos.com.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CF_Pachuca.svg",
+    "status": 429
+  },
+  {
+    "domain": "pachuca.com.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CF_Pachuca.svg",
+    "status": 429
+  },
+  {
+    "domain": "atlasfc.com.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/F%C3%BAtbol_Club_Atlas.svg",
+    "status": 429
+  },
+  {
+    "domain": "chivasdecorazon.com.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Deportivo_Guadalajara_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "pumas.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Logo_Pumas.svg",
+    "status": 429
+  },
+  {
+    "domain": "tigres.com.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Tigres_UANL_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubsantos.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Santos_Laguna_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubleon.mx",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Leon_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "tolucafc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Deportivo_Toluca_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubpuebla.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Puebla_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcrouen.fr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Football_Club_de_Rouen_1899.svg",
+    "status": 429
+  },
+  {
+    "domain": "intermiamicf.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Inter_Miami_CF_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "newyorkredbulls.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/New_York_Red_Bulls_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "houstondynamofc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Houston_Dynamo_FC_logo_(2020).svg",
+    "status": 429
+  },
+  {
+    "domain": "columbuscrew.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Columbus_Crew_SC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcdallas.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Dallas_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "lafc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/LAFC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "lagalaxy.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/LA_Galaxy_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "whitecapsfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Vancouver_Whitecaps_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "torontofc.ca",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Toronto_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "nashvillesc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Nashville_SC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "dcunited.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/D.C._United_logo_(2016).svg",
+    "status": 429
+  },
+  {
+    "domain": "coloradorapids.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Colorado_Rapids_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "mnufc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Minnesota_United_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sandiegofc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/San_Diego_FC_crest.svg",
+    "status": 429
+  },
+  {
+    "domain": "realsaltlake.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_Salt_Lake_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "revolutionsoccer.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/New_England_Revolution_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sportingkc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sporting_Kansas_City_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "portlandtimbers.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Portland_Timbers_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "soundersfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Seattle_Sounders_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "frontale.co.jp",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Kawasaki_Frontale.svg",
+    "status": 429
+  },
+  {
+    "domain": "vissel-kobe.co.jp",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Vissel_Kobe_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "kyotosanga.co.jp",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Kyoto_Sanga_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fagiano.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Fagiano_Okayama_FC_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "jeonbukhyundai.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Jeonbuk_Hyundai_Motors_FC.svg",
+    "status": 429
+  },
+  {
+    "domain": "uhfc.co.kr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Ulsan_HD_FC.svg",
+    "status": 429
+  },
+  {
+    "domain": "steelers.co.kr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Pohang_Steelers_emblem.svg",
+    "status": 429
+  },
+  {
+    "domain": "bluewings.kr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Suwon_Samsung_Bluewings_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "iparkfc.co.kr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Busan_IPark_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "seongnamfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Seongnam_FC_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "rizesporkulubu.com.tr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/%C3%87aykur_Rizespor_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "futurefc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Modern_Future_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcbayern.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Bayern_M%C3%BCnchen_logo_(2017).svg",
+    "status": 429
+  },
+  {
+    "domain": "eintracht.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Eintracht_Frankfurt_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fc-koeln.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/1._FC_K%C3%B6ln_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "vfb.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/VfB_Stuttgart_1893_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "scfreiburg.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/SC_Freiburg_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "herthabsc.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Hertha_BSC_Logo_2012.svg",
+    "status": 429
+  },
+  {
+    "domain": "borussia.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Borussia_M%C3%B6nchengladbach_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "hsv.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Hamburger_SV_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubolimpia.com.py",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Olimpia_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubdeportivotenerife.es",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CD_Tenerife_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "fc-zenit.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Zenit_Saint_Petersburg_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcdm.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Dynamo_Moscow_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "rubin-kazan.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Rubin_Kazan_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fck.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/1._FC_Kaiserslautern_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cafc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Charlton_Athletic_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cardiffcityfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Cardiff_City_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "levski.bg",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/PFC_Levski_Sofia_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "mff.se",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Malm%C3%B6_FF_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fckrasnodar.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Krasnodar_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "legia.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Legia_Warszawa_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "skrapid.at",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Logo_SK_Rapid_Wien.svg",
+    "status": 429
+  },
+  {
+    "domain": "fk-austria.at",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Logo_FK_Austria_Wien.svg",
+    "status": 429
+  },
+  {
+    "domain": "sksturm.at",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/SK_Sturm_Graz_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "empolifc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Empoli_F.C._logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "al-saddclub.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al-Sadd_SC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcdinamo.ro",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Dinamo_1948_Bucure%C3%B8ti.svg",
+    "status": 429
+  },
+  {
+    "domain": "sporting.be",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/KSC_Lokeren_Oost-Vlaanderen.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcb.ch",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Basel_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "vasco.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CRVascoDaGama.svg",
+    "status": 429
+  },
+  {
+    "domain": "bjk.com.tr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Be%C5%9Fikta%C5%9F_JK_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcdynamo.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Dynamo_Kyiv_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "hannover96.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Hannover_96_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sc-heerenveen.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/SC_Heerenveen_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "elchecf.es",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Elche_CF_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "rsl.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_Salt_Lake_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "bwfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Bolton_Wanderers_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcmetz.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Metz_2021_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "timbers.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Portland_Timbers_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcsg.ch",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_St._Gallen_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "malagacf.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/M%C3%A1laga_CF_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fctwente.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Twente_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "royalantwerpfc.be",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Royal_Antwerp_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "boavistafc.pt",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Boavista_F.C._logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sc-bastia.corsica",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/SC_Bastia_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "ac-ajaccio.corsica",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/AC_Ajaccio_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "f-marinos.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Yokohama_F._Marinos_logo_2024.svg",
+    "status": 429
+  },
+  {
+    "domain": "sscalciobari.it",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/SSC_Bari_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "rizespor.org.tr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Çaykur_Rizespor_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "recreativohuelva.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_Club_Recreativo_de_Huelva_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "millonarios.com.co",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Millonarios_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "wisla.krakow.pl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Wis%C5%82a_Krak%C3%B3w_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "wrexhamafc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Wrexham_AFC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sydneyfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sydney_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "ccfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Coventry_City_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "partizan.rs",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FK_Partizan_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcdinamo.ge",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Dinamo_Tbilisi_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "etoile-du-sahel.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Logo_Etoile_Sportive_du_Sahel.svg",
+    "status": 429
+  },
+  {
+    "domain": "torpedo.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Torpedo_Moscow_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fksarajevo.ba",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FK_Sarajevo_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fkvojvodina.rs",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FK_Vojvodina_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "crvenazvezdafk.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Red_Star_Belgrade_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fkzeljeznicar.ba",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FK_%C5%BDeljezni%C4%8Dar_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "millwallfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Millwall_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "canaries.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Norwich_City.svg",
+    "status": 429
+  },
+  {
+    "domain": "santafe.co",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Independiente_Santa_Fe_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "deportivocali.com.co",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Escudo_Deportivo_Cali.svg",
+    "status": 429
+  },
+  {
+    "domain": "fc-hansa.de",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/F.C._Hansa_Rostock_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "mhaifafc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Maccabi_Haifa_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "alainclub.ae",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al_Ain_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "gamba-osaka.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Gamba_Osaka_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fctokyo.co.jp",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Tokyo_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fclorient.bzh",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Lorient_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "lask.at",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/LASK_Linz_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "wydad.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Wydad_AC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "vvv-venlo.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/VVV-Venlo_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcspartaktrnava.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Spartak_Trnava_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "arisfc.com.gr",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Aris_Thessaloniki_F.C._logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubguarani.com.py",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/C_Guarani.svg",
+    "status": 429
+  },
+  {
+    "domain": "nec-nijmegen.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/N.E.C._Nijmegen_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "realmurcia.es",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_Murcia_CF.svg",
+    "status": 429
+  },
+  {
+    "domain": "cariverplate.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/River_Plate_crest.svg",
+    "status": 429
+  },
+  {
+    "domain": "bocajuniors.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Boca_Juniors_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubaindependiente.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Atl%C3%A9tico_Independiente_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "velez.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/V%C3%A9lez_Sarsfield_crest.svg",
+    "status": 429
+  },
+  {
+    "domain": "argentinosjuniors.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Asociaci%C3%B3n_Atl%C3%A9tica_Argentinos_Juniors_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "estudiantes.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Estudiantes_de_la_Plata_crest_(2025).svg",
+    "status": 429
+  },
+  {
+    "domain": "casla.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/San_Lorenzo_de_Almagro_crest.svg",
+    "status": 429
+  },
+  {
+    "domain": "racingclub.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Racing_Club_(logo).svg",
+    "status": 429
+  },
+  {
+    "domain": "rosariocentral.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Atl%C3%A9tico_Rosario_Central_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "newellsoldboys.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Newell%27s_Old_Boys_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cdeportivoespanol.com.ar",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Deportivo_Espa%C3%B1ol_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "clubatleticocerro.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Atl%C3%A9tico_Cerro_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "centralespanol.com.uy",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Central_Espa%C3%B1ol_crest.png",
+    "status": 429
+  },
+  {
+    "domain": "leedsunited.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Leeds_United_F.C._logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "wba.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/West_Bromwich_Albion_F.C._logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "blackpoolfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Blackpool_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "dcfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Derby_County_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "wiganathletic.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Wigan_Athletic_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "middlesbroughfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Middlesbrough_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "boltonwanderersfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Bolton_Wanderers_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "charltonathletic.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Charlton_Athletic_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fulhamfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Fulham_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "santosfc.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Santos_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cruzeiro.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Cruzeiro_Esporte_Clube_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fluminense.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Fluminense_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "botafogo.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Botafogo_de_Futebol_e_Regatas_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "corinthians.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sport_Club_Corinthians_Paulista_crest.svg",
+    "status": 429
+  },
+  {
+    "domain": "palmeiras.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sociedade_Esportiva_Palmeiras_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "saopaulofc.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sao_Paulo_Futebol_Clube.svg",
+    "status": 429
+  },
+  {
+    "domain": "gremio.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Gremio_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "internacional.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Sport_Club_Internacional_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "atletico.com.br",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Clube_Atl%C3%A9tico_Mineiro_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "penarol.org",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Pe%C3%B1arol_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "nacional.uy",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Nacional_de_Football_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "udechile.cl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Universidad_de_Chile_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "colocolo.cl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Colo-Colo_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "uc.cl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Universidad_Cat%C3%B3lica_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sparta.cz",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/AC-Sparta-LOGO2021.svg",
+    "status": 429
+  },
+  {
+    "domain": "slavia.cz",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/SK_Slavia_Praha_full_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcb.cz",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Ban%C3%ADk_Ostrava_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubatleticajunior.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Junior_de_Barranquilla_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "zamorafc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Zamora_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fénix.com.uy",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Centro_Atl%C3%A9tico_F%C3%A9nix_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "adelaideunited.com.au",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Adelaide_United_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcamsterdam.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Amsterdam_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "honvedfc.hu",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Budapest_Honv%C3%A9d_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "mtkbudapest.hu",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/MTK_Budapest_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "ujpestfc.hu",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Ujpest_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fradi.hu",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Ferencv%C3%A1rosi_TC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "zamalek.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Zamalek_SC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "saprissa.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Deportivo_Saprissa_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "ldu.com.ec",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/LDU_Quito_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "clubolimpia.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Club_Olimpia_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "motagua.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/F.C._Motagua_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "comunicacionesfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Comunicaciones_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "municipal.com.gt",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/C.S.D._Municipal_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "taurofc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Tauro_FC_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "sanfranciscofc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/San_Francisco_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "jablotehfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/San_Juan_Jabloteh_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "wconnectionfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/W_Connection_FC_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "joepublicfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Joe_Public_FC_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "defenseforcefc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Defence_Force_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "northeaststars.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/North_East_Stars_FC_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "ismailyclub.org",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Ismaily_SC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "pyramidsfc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Pyramids_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "masress.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Al_Masry_SC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "unionracing.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/USM_Alger_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cdmarathon.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/C.D._Marath%C3%B3n_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "realdeportivoespana.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_C.D._Espa%C3%B1a_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "standard.be",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Standard_de_Li%C3%A8ge_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cambuur.nl",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/SC_Cambuur_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "kaagent.be",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/KAA_Gent_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "krcgenk.be",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/KRC_Genk_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcpf.pt",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/F.C._Pa%C3%A7os_de_Ferreira_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "moreirensefc.pt",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Moreirense_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "realracingclub.es",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Real_Racing_Club_de_Santander_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "mallorca.es",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/RCD_Mallorca_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "readingfc.co.uk",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Reading_FC.svg",
+    "status": 429
+  },
+  {
+    "domain": "leytonorient.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Leyton_Orient_FC_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "victory-sc.ht",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Victory_Sporttif_Club.png",
+    "status": 429
+  },
+  {
+    "domain": "violette-ac.ht",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Violette_Athletic_Club_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "aigle-noir.ht",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Aigle_Noir_AC.png",
+    "status": 429
+  },
+  {
+    "domain": "don-bosco-haitien.ht",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Don_Bosco_FC.png",
+    "status": 429
+  },
+  {
+    "domain": "racing-club-haitien.ht",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Racing_Club_Ha%C3%AFtien_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "archibald-sc.ht",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Haiti_national_football_team_logo.png",
+    "status": 429
+  },
+  {
+    "domain": "va-fc.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Valenciennes_FC_Logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "cdplazaamador.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CD_Plaza_Amador_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "arabeunido.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CD_%C3%81rabe_Unido_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcmulhouse.net",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/Logo_FC_Mulhouse_2020.svg",
+    "status": 429
+  },
+  {
+    "domain": "pfc-cska.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/CSKA_Moscow_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "rubin-kazan.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Rubin_Kazan_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "pfc-zenit.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Zenit_1925_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "spartak.com",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Spartak_Moscow_logo.svg",
+    "status": 429
+  },
+  {
+    "domain": "fcdm.ru",
+    "url": "https://en.wikipedia.org/wiki/Special:FilePath/FC_Dynamo_Moscow_logo.svg",
+    "status": 429
+  }
+]

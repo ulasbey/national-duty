@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(node -e \":*)",
+      "Read(//c/Users/Ulaş Kalkan/Desktop/ANTIGRAVITY/Football Quiz 1/src/hooks//**)",
+      "Read(//c/Users/Ulaş Kalkan/Desktop/ANTIGRAVITY/Football Quiz 1/src/lib//**)",
+      "Read(//c/Users/Ulaş Kalkan/Desktop/ANTIGRAVITY/Football Quiz 1/**)",
+      "Bash(find 'C:/Users/Ulaş Kalkan/Desktop/ANTIGRAVITY/Football Quiz 1' -name *.jsx -o -name *.js -o -name *.css)",
+      "Bash(find 'C:/Users/Ulaş Kalkan/Desktop/ANTIGRAVITY/Football Quiz 1' -not -path */dist/* -not -path */node_modules/* -name *.jsx -o -name *.tsx)",
+      "Bash(npm run:*)",
+      "WebSearch",
+      "Bash(python3:*)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:logos.fandom.com)",
+      "WebFetch(domain:www.wikidata.org)",
+      "WebFetch(domain:query.wikidata.org)",
+      "WebFetch(domain:en.m.wikipedia.org)",
+      "WebFetch(domain:www.transfermarkt.com)"
+    ]
+  }
+}

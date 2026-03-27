@@ -1,0 +1,193 @@
+@import "tailwindcss";
+
+/* ===== Design System ===== */
+:root {
+  --pitch-green: #1a5c2a;
+  --pitch-dark: #14471f;
+  --pitch-line: rgba(255, 255, 255, 0.25);
+  --accent-gold: #f0c040;
+  --accent-blue: #3b82f6;
+  --bg-dark: #0a0f1a;
+  --bg-card: #111827;
+  --bg-card-hover: #1f2937;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+}
+
+/* ===== Base Styles ===== */
+body {
+  margin: 0;
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Animations ===== */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.85) translateY(8px);
+  }
+  55% {
+    transform: scale(1.04) translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Modal / card reveal — same spring as Football Quiz */
+@keyframes cardReveal {
+  from {
+    opacity: 0;
+    transform: scale(0.82) translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 12px rgba(240, 192, 64, 0.3); }
+  50%       { box-shadow: 0 0 28px rgba(240, 192, 64, 0.65); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-7px); }
+}
+
+@keyframes streakPop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.35); }
+  70%  { transform: scale(0.92); }
+  100% { transform: scale(1); }
+}
+
+@keyframes scoreCount {
+  from { opacity: 0; transform: translateY(-10px) scale(0.8); }
+  to   { opacity: 1; transform: translateY(0)     scale(1);   }
+}
+
+/* ===== Utility Classes ===== */
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.45s ease-out both;
+}
+
+.animate-fade-in-scale {
+  animation: fadeInScale 0.4s ease-out both;
+}
+
+.animate-bounce-in {
+  animation: bounceIn 0.42s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Used by modals & result cards */
+.animate-card-reveal {
+  animation: cardReveal 0.48s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.06) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2.5s infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-streak-pop {
+  animation: streakPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.animate-score-count {
+  animation: scoreCount 0.35s ease-out both;
+}
+
+/* ===== Retro Pitch Grain Overlay ===== */
+.pitch-retro-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+  opacity: 0.35;
+  mix-blend-mode: overlay;
+}
+
+/* ===== Modal Backdrop ===== */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 1rem;
+}
