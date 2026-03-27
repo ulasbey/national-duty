@@ -65,8 +65,9 @@ function getSavedDifficulty() {
 }
 
 // ── Flag map (teams data + options-only nations) ──────────────────────────────
+// Populated at module level with hard-coded extras; team flags added after lazy load
 
-const FLAG_MAP = Object.fromEntries(teamsData.map(t => [t.team, t.flag]));
+const FLAG_MAP = {};
 Object.assign(FLAG_MAP, {
   'Chile': '🇨🇱', 'Sweden': '🇸🇪', 'Poland': '🇵🇱', 'Serbia': '🇷🇸',
   'Ukraine': '🇺🇦', 'Ghana': '🇬🇭', 'Cameroon': '🇨🇲', 'Nigeria': '🇳🇬',
@@ -215,7 +216,13 @@ function App() {
   // ── Lazy-load team data (served from /public, not bundled) ──────────────────
   const [teamsData, setTeamsData] = useState([]);
   useEffect(() => {
-    fetch('/national_teams.json').then(r => r.json()).then(setTeamsData);
+    fetch('/national_teams.json')
+      .then(r => r.json())
+      .then(data => {
+        setTeamsData(data);
+        // Populate FLAG_MAP with team flags from loaded data
+        data.forEach(t => { FLAG_MAP[t.team] = t.flag; });
+      });
   }, []);
 
   const [screen, setScreen]               = useState('start');
@@ -276,7 +283,7 @@ function App() {
     return map;
   }, []);
 
-  const allTeamNames = useMemo(() => [...new Set(teamsData.map(t => t.team))], []);
+  const allTeamNames = useMemo(() => [...new Set(teamsData.map(t => t.team))], [teamsData]);
 
   const modeTeams = useMemo(() => {
     let filtered = [];
@@ -321,7 +328,7 @@ function App() {
   // Build shuffled options (Hard mode gets 7)
   const shuffledOptions = useMemo(() => {
     if (!currentTeam) return [];
-    const arr = buildOptions(currentTeam, diffConfig.optionCount);
+    const arr = buildOptions(currentTeam, diffConfig.optionCount, null, teamsData);
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
