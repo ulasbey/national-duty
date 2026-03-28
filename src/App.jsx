@@ -315,7 +315,7 @@ function App() {
       [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
     }
     return filtered.slice(0, GAME_COUNT);
-  }, [mode, gameId]);
+  }, [mode, gameId, teamsData]);
 
   const currentTeam = modeTeams[currentIndex] || null;
   const isLastTeam  = currentIndex === modeTeams.length - 1;
@@ -330,7 +330,7 @@ function App() {
     }
     return arr;
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentIndex, currentTeam?.id, difficulty]);
+  }, [currentIndex, currentTeam?.id, difficulty, teamsData]);
 
   // ── Timer ───────────────────────────────────────────────────────────────────
 
