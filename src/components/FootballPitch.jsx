@@ -506,7 +506,7 @@ const LOGO_MAP = {
   'ascannes.fr':              WP + 'Cannes.svg',
   'canon-yaounde.com':        WP + 'Canon_Yaounde.svg',
   'capetownspurs.co.za':      WP + 'Cape_Town_Spurs.svg',
-  'rcfc.be':                  WP + 'Cappellen.svg',
+  'rcfc.be':                  '/logos/rcfc.be.png',
   'cartagines.cr':            WP + 'Cartagines.svg',
   'rccelta.es':               WP + 'Celta_Vigo.svg',
   'celticfc.com':             WP + 'Celtic.svg',
