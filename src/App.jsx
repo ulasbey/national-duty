@@ -306,7 +306,7 @@ function App() {
         'afcon':    'AFCON'
       };
       const search = modeMap[mode] || mode;
-      filtered = teamsData.filter(t => t.tournament?.toLowerCase().includes(search.toLowerCase()));
+      filtered = teamsData.filter(t => t.mode === 'iconic' && t.tournament?.toLowerCase().includes(search.toLowerCase()));
     }
     
     // Shuffle and pick GAME_COUNT
