@@ -8,6 +8,18 @@ const DIFF_TABS = [
   { key: 'hard',   label: '🔴 Hard' },
 ];
 
+const MODE_ICON = {
+  daily:    '📅',
+  iconic:   '🏆',
+  worldcup: '🌍',
+  euro:     '🇪🇺',
+  conmebol: '🌎',
+  concacaf: '🏆',
+  afcon:    '🌍',
+  current:  '🏟️',
+  mixed:    '🔀',
+};
+
 function timeAgo(iso) {
   const diff = Math.floor((Date.now() - new Date(iso)) / 1000);
   if (diff < 60)  return `${diff}s ago`;
@@ -144,10 +156,17 @@ export default function GlobalLeaderboard({ onClose, t }) {
                 </p>
               </div>
 
-              <div className="text-right shrink-0">
-                <p className="text-base font-black text-[var(--accent-gold)] tabular-nums">
-                  {row.score.toLocaleString()}
-                </p>
+              <div className="text-right shrink-0 flex flex-col items-end gap-0.5">
+                <div className="flex items-center gap-1">
+                  {row.mode && MODE_ICON[row.mode] && (
+                    <span className="text-sm leading-none" title={row.mode}>
+                      {MODE_ICON[row.mode]}
+                    </span>
+                  )}
+                  <p className="text-base font-black text-[var(--accent-gold)] tabular-nums">
+                    {row.score.toLocaleString()}
+                  </p>
+                </div>
                 <p className="text-[9px] text-slate-600 uppercase tracking-wider">pts</p>
               </div>
             </div>

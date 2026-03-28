@@ -645,41 +645,37 @@ function App() {
           </div>
         </div>
 
-        {/* ── Fun Fact Cards ── */}
+        {/* ── Fun Fact Card (1 only) ── */}
         {(() => {
           const teamsWithFacts = missedTeams.filter(t => t.funFact);
-          // Show all missed teams' facts; if all correct, show one random fact
-          const factTeams = teamsWithFacts.length > 0
-            ? teamsWithFacts
-            : (() => {
-                const r = modeTeams.filter(t => t.funFact).sort(() => Math.random() - 0.5)[0];
-                return r ? [r] : [];
-              })();
-          if (factTeams.length === 0) return null;
           const isWrong = teamsWithFacts.length > 0;
+          // Wrong: pick one random missed team with a fact
+          // Correct: pick one random team from the round with a fact
+          const pool = isWrong
+            ? teamsWithFacts
+            : modeTeams.filter(t => t.funFact);
+          if (pool.length === 0) return null;
+          const factTeam = pool[Math.floor(Math.random() * pool.length)];
           return (
-            <div className="w-full max-w-sm flex flex-col gap-2 animate-fade-in-up" style={{ animationDelay: '250ms' }}>
-              {factTeams.map((factTeam, i) => (
-                <div key={factTeam.id} className="relative rounded-2xl overflow-hidden border border-amber-500/20
-                  bg-gradient-to-br from-amber-950/60 to-[#0d0800] p-4"
-                  style={{ animationDelay: `${250 + i * 80}ms` }}>
-                  <div className="flex items-start gap-3">
-                    <div className="shrink-0 text-xl mt-0.5">💡</div>
-                    <div>
-                      <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-                        <span className="text-[9px] font-bold uppercase tracking-widest text-amber-400/60">
-                          {isWrong ? t('end.wrongFact') : t('end.didYouKnow')}
-                        </span>
-                        <span className="text-[10px] font-bold text-amber-300/90">
-                          {factTeam.team} {factTeam.year}
-                        </span>
-                      </div>
-                      <p className="text-xs text-white/75 leading-relaxed">{factTeam.funFact}</p>
+            <div className="w-full max-w-sm animate-fade-in-up" style={{ animationDelay: '250ms' }}>
+              <div className="relative rounded-2xl overflow-hidden border border-amber-500/20
+                bg-gradient-to-br from-amber-950/60 to-[#0d0800] p-4">
+                <div className="flex items-start gap-3">
+                  <div className="shrink-0 text-xl mt-0.5">💡</div>
+                  <div>
+                    <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+                      <span className="text-[9px] font-bold uppercase tracking-widest text-amber-400/60">
+                        {isWrong ? t('end.wrongFact') : t('end.didYouKnow')}
+                      </span>
+                      <span className="text-[10px] font-bold text-amber-300/90">
+                        {factTeam.team} {factTeam.year}
+                      </span>
                     </div>
+                    <p className="text-xs text-white/75 leading-relaxed">{factTeam.funFact}</p>
                   </div>
-                  <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500/30 to-transparent" />
                 </div>
-              ))}
+                <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-amber-500/30 to-transparent" />
+              </div>
             </div>
           );
         })()}

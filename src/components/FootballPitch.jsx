@@ -146,7 +146,7 @@ const LOGO_MAP = {
   'clubnecaxa.mx':            WP + 'Club_Necaxa_logo.svg',
   'sundownsfc.com':           WP + 'Mamelodi_Sundowns_logo.svg',
   'asse.fr':                  WP + 'Logo_AS_Saint-%C3%89tienne.svg',
-  'asnl.net':                 WP + 'AS_Nancy-Lorraine_logo.svg',
+  'asnl.net':                 '/logos/asnl.net.png',
   'realzaragoza.com':         WP + 'Real_Zaragoza_logo.svg',
   'ga-eagles.nl':             WP + 'Go_Ahead_Eagles_logo.svg',
   'willem-ii.nl':             WP + 'Willem_II_logo.svg',
@@ -173,7 +173,7 @@ const LOGO_MAP = {
   // ── Belgian ───────────────────────────────────────────────────
   'rsca.be':                  WP + 'RSC_Anderlecht_Logo.svg',
   'clubbrugge.be':            WP + 'Club_Brugge_KV_logo.svg',
-  'lierse.com':               WP + 'Lierse_SK_logo.svg',
+  'lierse.com':               '/logos/lierse.com.svg',
 
   // ── Turkish ───────────────────────────────────────────────────
   'galatasaray.org':          WP + 'Galatasaray_Sports_Club_Logo.png',
@@ -354,7 +354,7 @@ const LOGO_MAP = {
   'clubaindependiente.com.ar':WP + 'Club_Atl%C3%A9tico_Independiente_logo.svg',
   'velez.com.ar':             WP + 'V%C3%A9lez_Sarsfield_crest.svg',
   'argentinosjuniors.com.ar': WP + 'Asociaci%C3%B3n_Atl%C3%A9tica_Argentinos_Juniors_logo.svg',
-  'estudiantes.com.ar':       WP + 'Estudiantes_de_la_Plata_crest_(2025).svg',
+  'estudiantes.com.ar':       WC + 'Estudiantes_de_la_Plata_crest_(2025).svg',
   'casla.com.ar':             WP + 'San_Lorenzo_de_Almagro_crest.svg',
   'racingclub.com.ar':        WP + 'Racing_Club_(logo).svg',
   'rosariocentral.com':       WP + 'Club_Atl%C3%A9tico_Rosario_Central_logo.svg',
@@ -383,9 +383,9 @@ const LOGO_MAP = {
   'internacional.com.br':     WP + 'Sport_Club_Internacional_logo.svg',
 
   // ── Uruguayan / Chilean / South American ─────────────────────────
-  'penarol.org':              WP + 'Pe%C3%B1arol_logo.svg',
-  'nacional.uy':              WP + 'Club_Nacional_de_Football_logo.svg',
-  'udechile.cl':              WP + 'Club_Universidad_de_Chile_logo.svg',
+  'penarol.org':              WC + 'Escudo_del_Club_Atl%C3%A9tico_Pe%C3%B1arol.svg',
+  'nacional.uy':              WC + 'Club_Nacional_de_Football.png',
+  'udechile.cl':              WC + 'Emblema_del_Club_Universidad_de_Chile.png',
   'colocolo.cl':              WP + 'Colo-Colo_logo.svg',
   'uc.cl':                    WP + 'Club_Universidad_Cat%C3%B3lica_logo.svg',
 
@@ -426,7 +426,7 @@ const LOGO_MAP = {
   'northeaststars.com':       WP + 'North_East_Stars_FC_logo.png',
 
   // ── African (More) ────────────────────────────────────────────
-  'ismailyclub.org':          WP + 'Ismaily_SC_logo.svg',
+  'ismailyclub.org':          '/logos/ismailyclub.org.png',
   'pyramidsfc.com':           WP + 'Pyramids_FC_logo.svg',
   'masress.com':              WP + 'Al_Masry_SC_logo.svg',
   'unionracing.com':          WP + 'USM_Alger_logo.svg',
@@ -533,7 +533,7 @@ const LOGO_MAP = {
   'elnacional.ec':            WP + 'El_Nacional.svg',
   'enppiclub.org':            WP + 'ENPPI.svg',
   'envigadofc.co':            WP + 'Envigado.svg',
-  'estudiantesdelaplata.com': WP + 'Estudiantes.svg',
+  'estudiantesdelaplata.com': WC + 'Estudiantes_de_la_Plata_crest_(2025).svg',
   'etgfc.com':                WP + 'Evian.svg',
   'unioneuropeaextremadura.com': WP + 'Extremadura.svg',
   'falkirkfc.co.uk':          WP + 'Falkirk.svg',
@@ -562,7 +562,7 @@ const LOGO_MAP = {
   'ifkgoteborg.se':           WP + 'IFK_Goteborg.svg',
   'dimoficial.com':           WP + 'Independiente_Medellin.svg',
   'ictfc.com':                WP + 'Inverness_CT.svg',
-  'ismailyclub.com':          WP + 'Ismaily.png',
+  'ismailyclub.com':          '/logos/ismailyclub.org.png',
   'fcistres.fr':              WP + 'Istres.svg',
   'chiapasfc.com':            WP + 'Jaguares_de_Chiapas.svg',
   'jomocosmos.co.za':         WP + 'Jomo_Cosmos.svg',
@@ -592,6 +592,9 @@ const LOGO_MAP = {
   'maccabi-tlv.co.il':        WP + 'Maccabi_Tel_Aviv_logo.svg',
   'deportivomaldonado.com':   WP + 'Maldonado_logo.svg',
   'faf.dz':                   WP + 'MC_Oran_logo.svg',
+  'union-douala.cm':          WP + 'US_Douala_(logo).png',
+  'philadelphia-fever.com':   WP + 'Philadelphia-Fever.png',
+  // Canon Yaoundé: no Wikipedia logo — falls through to unavatar/DuckDuckGo
   'sitiofuente.mx':           WP + 'Monarcas_Morelia_logo.svg',
   'mhscfoot.com':             WP + 'Montpellier_logo.svg',
   'moranbong.kp':             WP + 'Moranbong_logo.svg',
@@ -650,7 +653,7 @@ const LOGO_MAP = {
   'canadasoccer.com':         WP + 'Tacoma_Stars_logo.svg',
   'ussoccer.com':             WP + 'Tampa_Bay_Rowdies_logo.svg',
   'cafetalerosdetapachula.com.mx': WP + 'Tapachula_logo.svg',
-  'club-thestrongest.com':    WP + 'The_Strongest_logo.svg',
+  'club-thestrongest.com':    WC + 'Club_the_strongest_escudo_transparent_background_png_700px.png',
   'tianjinfc.com':            WP + 'Tianjin_Quanjian_logo.svg',
   'xolos.com.mx':             WP + 'Tijuana_logo.svg',
   'tonnerrekalara.com':       WP + 'Tonnerre_Yaounde_logo.svg',
