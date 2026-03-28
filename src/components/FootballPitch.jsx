@@ -751,7 +751,8 @@ function ClubLogo({ player }) {
 
 /* ── Pitch themes ─────────────────────────────────────────────── */
 const PITCH_THEMES = {
-  modern: {
+  // difficulty: easy → lush green
+  easy: {
     bg: 'linear-gradient(to bottom, #1a8a3a, #20a045, #17803a)',
     lineColor: 'rgba(255,255,255,0.35)',
     lineColorSecondary: 'rgba(255,255,255,0.25)',
@@ -760,7 +761,8 @@ const PITCH_THEMES = {
     stripeColor: 'rgba(255,255,255,1)',
     overlayBg: null,
   },
-  vintage: {
+  // difficulty: normal → vintage amber
+  normal: {
     bg: '#5c5236',
     lineColor: 'rgba(255,255,255,0.35)',
     lineColorSecondary: 'rgba(255,255,255,0.25)',
@@ -768,6 +770,16 @@ const PITCH_THEMES = {
     stripeOpacity: 0.03,
     stripeColor: '#000000',
     overlayBg: 'radial-gradient(ellipse at 50% 50%, transparent 40%, rgba(40,20,0,0.7) 100%)',
+  },
+  // difficulty: hard → terracotta red clay
+  hard: {
+    bg: 'linear-gradient(to bottom, #8B2500, #a02d00, #7a2000)',
+    lineColor: 'rgba(255,255,255,0.30)',
+    lineColorSecondary: 'rgba(255,255,255,0.20)',
+    lineColorTertiary: 'rgba(255,255,255,0.13)',
+    stripeOpacity: 0.04,
+    stripeColor: 'rgba(0,0,0,1)',
+    overlayBg: 'radial-gradient(ellipse at 50% 50%, transparent 35%, rgba(60,0,0,0.65) 100%)',
   },
 };
 
@@ -830,7 +842,7 @@ const FormationRow = memo(function FormationRow({ players, rowDelay, revealNames
 });
 
 /* ── FootballPitch ── */
-const FootballPitch = memo(function FootballPitch({ team, revealNames }) {
+const FootballPitch = memo(function FootballPitch({ team, revealNames, difficulty }) {
   if (!team) return null;
 
   const { players } = team;
@@ -839,8 +851,7 @@ const FootballPitch = memo(function FootballPitch({ team, revealNames }) {
   const mid = players.filter(p => p.position === 'MID');
   const fwd = players.filter(p => p.position === 'FWD');
 
-  const pitchMode = team.mode === 'iconic' ? 'vintage' : 'modern';
-  const theme = PITCH_THEMES[pitchMode] || PITCH_THEMES.modern;
+  const theme = PITCH_THEMES[difficulty] || PITCH_THEMES.normal;
 
   return (
     <div className="relative w-full max-w-md mx-auto aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
@@ -864,7 +875,7 @@ const FootballPitch = memo(function FootballPitch({ team, revealNames }) {
         opacity: theme.stripeOpacity,
         backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 24px, ${theme.stripeColor} 24px, ${theme.stripeColor} 48px)`,
       }} />
-      {pitchMode === 'vintage' && (
+      {(difficulty === 'normal' || difficulty === 'hard') && (
         <div className="absolute inset-0 pointer-events-none pitch-retro-grain" />
       )}
       <div className="relative z-10 h-full flex flex-col justify-between py-4 px-2">

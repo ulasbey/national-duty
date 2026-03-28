@@ -843,7 +843,7 @@ function App() {
           </div>
         </div>
 
-        <FootballPitch team={currentTeam} mode={currentTeam.mode} revealNames={isRevealed} />
+        <FootballPitch team={currentTeam} revealNames={isRevealed} difficulty={difficulty} />
 
         {/* ── Hint System ── */}
         {!isRevealed && (
