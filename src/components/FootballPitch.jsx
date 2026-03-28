@@ -75,7 +75,7 @@ const LOGO_MAP = {
   'realbetisbalompie.es':   WP + 'Real_betis_logo.svg',
   'levante-ud.es':          WP + 'Levante_Uni%C3%B3n_Deportiva%2C_S.A.D._logo.svg',
   'osasuna.es':               WP + 'CA_Osasuna_2024_crest.svg',
-  'realvalladolid.es':        WP + 'Real_Valladolid.svg',
+  'realvalladolid.es':        WP + 'Real_Valladolid_CF_crest.svg',
 
   // ── German ────────────────────────────────────────────────────
   'fcbayern.com':             WP + 'FC_Bayern_M%C3%BCnchen_logo_(2017).svg',
