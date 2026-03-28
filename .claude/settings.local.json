@@ -18,7 +18,9 @@
       "WebFetch(domain:query.wikidata.org)",
       "WebFetch(domain:en.m.wikipedia.org)",
       "WebFetch(domain:www.transfermarkt.com)",
-      "Bash(ls \"C:\\\\Users\\\\Ulaş Kalkan\\\\Desktop\\\\ANTIGRAVITY\\\\National Duty 1\\\\public\\\\icons\\\\trophies\"\" 2>/dev/null || echo \"KLASÖR YOK \")"
+      "Bash(ls \"C:\\\\Users\\\\Ulaş Kalkan\\\\Desktop\\\\ANTIGRAVITY\\\\National Duty 1\\\\public\\\\icons\\\\trophies\"\" 2>/dev/null || echo \"KLASÖR YOK \")",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
     ]
   }
 }

@@ -168,7 +168,7 @@ function LegendaryScreen({ onSelectMode, onBack, t }) {
 }
 
 // ── Main Home Screen ──────────────────────────────────────────────────────────
-export default function StartScreen({ onSelectMode, onShowLeaderboard, onShowStats, difficulty = 'normal', onDifficultyChange, lang, toggleLang, t }) {
+export default function StartScreen({ onSelectMode, onShowLeaderboard, onShowGlobalLeaderboard, onShowStats, difficulty = 'normal', onDifficultyChange, lang, toggleLang, t }) {
     const [view, setView] = useState('home'); // 'home' | 'legendary'
     const dailyDone = isDailyDone();
 
@@ -210,10 +210,14 @@ export default function StartScreen({ onSelectMode, onShowLeaderboard, onShowSta
                     className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center
                         text-[var(--text-secondary)] hover:text-white hover:bg-white/10 hover:border-white/20
                         transition-all duration-200 cursor-pointer text-base">📊</button>
-                <button onClick={onShowLeaderboard} title="Leaderboard"
+                <button onClick={onShowLeaderboard} title="Local Leaderboard"
                     className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center
                         text-[var(--text-secondary)] hover:text-white hover:bg-white/10 hover:border-white/20
                         transition-all duration-200 cursor-pointer text-base">🏅</button>
+                <button onClick={onShowGlobalLeaderboard} title="Global Leaderboard"
+                    className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center
+                        text-[var(--text-secondary)] hover:text-white hover:bg-white/10 hover:border-white/20
+                        transition-all duration-200 cursor-pointer text-base">🌍</button>
             </div>
 
             {/* ── Hero ── */}

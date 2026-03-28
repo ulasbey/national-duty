@@ -5,6 +5,8 @@ import FootballPitch from './components/FootballPitch';
 import LogoTester from './components/LogoTester';
 import ScoreBoard, { saveScore } from './components/ScoreBoard';
 import StatsModal from './components/StatsModal';
+import SaveScoreModal from './components/SaveScoreModal';
+import GlobalLeaderboard from './components/GlobalLeaderboard';
 // teamsData loaded lazily (see useEffect below)
 import translations from './data/translations';
 import { isSoundOn, toggleSound, playDing, playFail, playTick, playStadiumSound, playComplete, playGameOver } from './lib/sounds';
@@ -232,6 +234,8 @@ function App() {
   const [lastPts, setLastPts]             = useState(null);
   const [showScoreBoard, setShowScoreBoard] = useState(false);
   const [showStats, setShowStats]         = useState(false);
+  const [showSaveScore, setShowSaveScore]     = useState(false);
+  const [showGlobalLB, setShowGlobalLB]       = useState(false);
   const [questionResults, setQuestionResults] = useState([]); // [{correct, timeLeft}]
   const [shieldOverlay, setShieldOverlay]     = useState(false);
   const [gameId, setGameId]                   = useState(0); // Used to reshuffle teams on Play Again
@@ -501,6 +505,7 @@ function App() {
     setSelectedAnswer(null); setIsRevealed(false); setScore(0);
     setStreak(0); setBestStreak(0); setCorrectCount(0);
     setTimedOut(false); setShowEndScreen(false); setShareStatus(null); setMissedTeams([]);
+    setShowSaveScore(false); setShowGlobalLB(false);
     setHintsUsed(0); setHintTexts([]); setLastPts(null);
     setShields(0); setShieldFlash(null);
     setQuestionResults([]); setShieldOverlay(false);
@@ -533,6 +538,7 @@ function App() {
         <StartScreen
           onSelectMode={handleSelectMode}
           onShowLeaderboard={() => setShowScoreBoard(true)}
+          onShowGlobalLeaderboard={() => setShowGlobalLB(true)}
           onShowStats={() => setShowStats(true)}
           difficulty={difficulty}
           onDifficultyChange={handleDifficultyChange}
@@ -542,6 +548,7 @@ function App() {
         />
         {showScoreBoard && <ScoreBoard onClose={() => setShowScoreBoard(false)} t={t} lang={lang} />}
         {showStats      && <StatsModal onClose={() => setShowStats(false)} t={t} lang={lang} />}
+        {showGlobalLB   && <GlobalLeaderboard onClose={() => setShowGlobalLB(false)} t={t} />}
       </>
     );
   }
@@ -678,16 +685,26 @@ function App() {
         })()}
 
         <div className="flex flex-col gap-3 w-full max-w-sm animate-fade-in-up" style={{ animationDelay: '300ms' }}>
-          <button
-            onClick={handleShare}
-            disabled={shareStatus === 'loading'}
-            className="w-full py-3.5 rounded-xl font-semibold text-sm cursor-pointer
-              bg-gradient-to-r from-emerald-500 to-emerald-600 text-white
-              hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-lg shadow-emerald-500/20
-              disabled:opacity-60 disabled:cursor-not-allowed"
-          >
-            {shareLabel}
-          </button>
+          <div className="flex gap-3">
+            <button
+              onClick={handleShare}
+              disabled={shareStatus === 'loading'}
+              className="flex-1 py-3.5 rounded-xl font-semibold text-sm cursor-pointer
+                bg-gradient-to-r from-emerald-500 to-emerald-600 text-white
+                hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-lg shadow-emerald-500/20
+                disabled:opacity-60 disabled:cursor-not-allowed"
+            >
+              {shareLabel}
+            </button>
+            <button
+              onClick={() => setShowSaveScore(true)}
+              className="flex-1 py-3.5 rounded-xl font-semibold text-sm cursor-pointer
+                bg-gradient-to-r from-amber-500 to-amber-600 text-white
+                hover:scale-[1.02] active:scale-[0.98] transition-transform shadow-lg shadow-amber-500/20"
+            >
+              🏅 {t('save.submit')}
+            </button>
+          </div>
 
           <div className="flex gap-3">
             <button
@@ -714,7 +731,31 @@ function App() {
               ← {t('end.menu')}
             </button>
           </div>
+
+          <button
+            onClick={() => setShowGlobalLB(true)}
+            className="w-full py-2.5 rounded-xl font-semibold text-xs cursor-pointer
+              bg-white/3 border border-white/8 text-slate-500
+              hover:bg-white/8 hover:text-slate-300 transition-all"
+          >
+            🌍 {t('globalLB.title')}
+          </button>
         </div>
+
+        {showSaveScore && (
+          <SaveScoreModal
+            score={score}
+            correctCount={correctCount}
+            totalQuestions={modeTeams.length}
+            difficulty={difficulty}
+            mode={mode}
+            onClose={() => setShowSaveScore(false)}
+            t={t}
+          />
+        )}
+        {showGlobalLB && (
+          <GlobalLeaderboard onClose={() => setShowGlobalLB(false)} t={t} />
+        )}
       </div>
     );
   }

@@ -85,7 +85,26 @@ const translations = {
       accuracy: "Global Accuracy",
       bestStreak: "Best Streak",
       topModes: "Top Modes",
-    }
+    },
+    save: {
+      title: "Save Your Score",
+      subtitle: "Appear on the global leaderboard",
+      subtitleDaily: "Appear on today's daily leaderboard",
+      nameLabel: "Your name",
+      namePlaceholder: "Enter your name…",
+      submit: "Save Score",
+      skip: "Skip",
+      saved: "Score saved!",
+      error: "Couldn't save — try again",
+    },
+    globalLB: {
+      title: "Global Leaderboard",
+      global: "All Time",
+      daily: "Today",
+      empty: "No scores yet — be the first!",
+      error: "Couldn't load scores",
+      footer: "Top 20 scores · Updated live",
+    },
   },
   tr: {
     start: {
@@ -175,7 +194,26 @@ const translations = {
       accuracy: "Genel Doğruluk",
       bestStreak: "En İyi Seri",
       topModes: "En Çok Oynananlar",
-    }
+    },
+    save: {
+      title: "Skorunu Kaydet",
+      subtitle: "Global liderlik tablosunda görün",
+      subtitleDaily: "Günün liderlik tablosunda görün",
+      nameLabel: "Adın",
+      namePlaceholder: "Adını gir…",
+      submit: "Skoru Kaydet",
+      skip: "Geç",
+      saved: "Skor kaydedildi!",
+      error: "Kaydedilemedi — tekrar dene",
+    },
+    globalLB: {
+      title: "Global Liderlik",
+      global: "Tüm Zamanlar",
+      daily: "Bugün",
+      empty: "Henüz skor yok — ilk sen ol!",
+      error: "Skorlar yüklenemedi",
+      footer: "İlk 20 skor · Canlı güncellenir",
+    },
   }
 };
 
