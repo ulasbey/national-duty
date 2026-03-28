@@ -399,7 +399,7 @@ const LOGO_MAP = {
   'zamorafc.com':             WP + 'Zamora_FC_logo.svg',
   'fénix.com.uy':             WP + 'Centro_Atl%C3%A9tico_F%C3%A9nix_logo.svg',
   'adelaideunited.com.au':    WP + 'Adelaide_United_FC_logo.svg',
-  'fcamsterdam.nl':           WP + 'FC_Amsterdam_logo.png', // Extinct club
+  'fcamsterdam.nl':           WP + 'FC-Amsterdam.png',
   'honvedfc.hu':              WP + 'Budapest_Honv%C3%A9d_FC_logo.svg',
   'mtkbudapest.hu':           WP + 'MTK_Budapest_logo.svg',
   'ujpestfc.hu':              WP + 'Ujpest_FC_logo.svg',
