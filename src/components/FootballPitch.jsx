@@ -133,7 +133,7 @@ const LOGO_MAP = {
   'ol.fr':                    WP + 'Olympique_Lyonnais_%28logo%29.svg',
   'losc.fr':                WP + 'LOSC_Lille_logo.svg',
   'rcdmallorca.es':           WP + 'Rcd_mallorca.svg',
-  'americadecali.co':         WP + 'Escudo_de_Am%C3%A9rica_de_Cali.svg',
+  'americadecali.co':         WP + 'Am%C3%A9rica_de_Cali_logo.svg',
   'atlnacional.com.co':       WP + 'Escudo_de_Atl%C3%A9tico_Nacional.svg',
   'orlandopiratesfc.com':     WP + 'Orlando_Pirates_FC_logo.svg',
   'kaizerchiefs.com':         WP + 'Kaizer_Chiefs_logo.svg',
@@ -217,8 +217,8 @@ const LOGO_MAP = {
   'atletico.com.br':          WP + 'Atletico_Mineiro_escudo.svg',
 
   // ── Mexican ──────────────────────────────────────────────────
-  'clubamerica.com.mx':       WP + 'Club_Am%C3%A9rica_logo.svg',
-  'cruzazulfc.com.mx':        WP + 'Cruz_Azul_Logo.svg',
+  'clubamerica.com.mx':       WP + 'Club_Am%C3%A9rica_crest.svg',
+  'cruzazulfc.com.mx':        WP + 'Escudo_del_Cruz_Azul.svg',
   'tuzos.com.mx':             WP + 'CF_Pachuca.svg',
   'pachuca.com.mx':           WP + 'CF_Pachuca.svg',
   'rayados.com':              WP + 'C.F._Monterrey_logo.svg',
@@ -227,8 +227,8 @@ const LOGO_MAP = {
   'pumas.mx':                 WP + 'Logo_Pumas.svg',
   'tigres.com.mx':            WP + 'Tigres_UANL_logo.svg',
   'clubsantos.mx':            WP + 'Club_Santos_Laguna_logo.svg',
-  'clubleon.mx':              WP + 'Club_Leon_logo.svg',
-  'tolucafc.com':             WP + 'Deportivo_Toluca_FC_logo.svg',
+  'clubleon.mx':              WP + 'Club_Le%C3%B3n_FC.svg',
+  'tolucafc.com':             WP + 'Club_Toluca_Logo.svg',
   'clubpuebla.com':           WP + 'Club_Puebla_Logo.svg',
   'dorogifc.hu':              'https://images.seeklogo.com/logo-png/41/1/dorogi-banyasz-sk-mid-1950s-logo-png_seeklogo-411602.png',
   'fcrouen.fr':               WP + 'Football_Club_de_Rouen_1899.svg',
@@ -236,14 +236,14 @@ const LOGO_MAP = {
   // ── MLS ───────────────────────────────────────────────────────
   'intermiamicf.com':         WP + 'Inter_Miami_CF_logo.svg',
   'newyorkredbulls.com':      WP + 'New_York_Red_Bulls_logo.svg',
-  'houstondynamofc.com':      WP + 'Houston_Dynamo_FC_logo_(2020).svg',
+  'houstondynamofc.com':      WC + 'Houston_Dynamo_FC_logo.svg',
   'columbuscrew.com':         WP + 'Columbus_Crew_SC_logo.svg',
   'fcdallas.com':             WP + 'FC_Dallas_logo.svg',
   'lafc.com':                 WP + 'LAFC_logo.svg',
   'lagalaxy.com':             WP + 'LA_Galaxy_logo.svg',
-  'whitecapsfc.com':          WP + 'Vancouver_Whitecaps_FC_logo.svg',
+  'whitecapsfc.com':          WP + 'Vancouver-Whitecaps-FC-Logo.svg',
   'torontofc.ca':             WP + 'Toronto_FC_logo.svg',
-  'cfmontreal.com':           WP + 'CF_Montr%C3%A9al_logo.svg',
+  'cfmontreal.com':           WP + 'Montreal_Impact_(MLS)_logo.svg',
   'nashvillesc.com':          WP + 'Nashville_SC_logo.svg',
   'dcunited.com':             WP + 'D.C._United_logo_(2016).svg',
   'coloradorapids.com':       WP + 'Colorado_Rapids_logo.svg',
@@ -413,9 +413,9 @@ const LOGO_MAP = {
   'clubolimpia.com':          WP + 'Club_Olimpia_logo.svg',
   'motagua.com':              WP + 'F.C._Motagua_logo.svg',
   'platensefc.com':           WP + 'Platense_FC_logo.svg',
-  'comunicacionesfc.com':     WP + 'Comunicaciones_FC_logo.svg',
+  'comunicacionesfc.com':     WP + 'Comunicaciones_fc_logo.png',
   'municipal.com.gt':         WP + 'C.S.D._Municipal_Logo.svg',
-  'taurofc.com':              WP + 'Tauro_FC_Logo.svg',
+  'taurofc.com':              WP + 'Tauro_FC_2009.svg',
   'sanfranciscofc.com':       WP + 'San_Francisco_FC_logo.svg',
 
   // ── Caribbean (Trinidad & Tobago / etc) ────────────────────────
@@ -433,7 +433,7 @@ const LOGO_MAP = {
   'eskahdid.com':             WP + 'ES_S%C3%A9tif_logo.svg',
 
   // ── Honduras / Misc ──────────────────────────────────────────
-  'cdmarathon.com':           WP + 'C.D._Marath%C3%B3n_logo.svg',
+  'cdmarathon.com':           WP + 'CD_Marath%C3%B3n_logo_100_Aniversario.png',
   'realdeportivoespana.com':  WP + 'Real_C.D._Espa%C3%B1a_logo.svg',
 
   // ── Belgian / Dutch ──────────────────────────────────────────
@@ -447,7 +447,7 @@ const LOGO_MAP = {
   'moreirensefc.pt':          WP + 'Moreirense_FC_logo.svg',
 
   // ── Spanish (Misc Iconic) ─────────────────────────────────────
-  'realracingclub.es':        WP + 'Real_Racing_Club_de_Santander_logo.svg',
+  'realracingclub.es':        WP + 'Racing_de_Santander_logo.svg',
   'mallorca.es':              WP + 'Rcd_mallorca.svg',
 
   // ── English (More Iconic) ─────────────────────────────────────
@@ -462,8 +462,8 @@ const LOGO_MAP = {
   'racing-club-haitien.ht':   WP + 'Racing_Club_Ha%C3%AFtien_logo.png',
   'archibald-sc.ht':          WP + 'Haiti_national_football_team_logo.png', // Fallback to NT logo
   'va-fc.com':                WP + 'Valenciennes_FC_Logo.svg',
-  'cdplazaamador.com':        WP + 'CD_Plaza_Amador_logo.svg',
-  'arabeunido.com':           WP + 'CD_%C3%81rabe_Unido_logo.svg',
+  'cdplazaamador.com':        WP + 'CD_Plaza_Amador_Shield.jpg',
+  'arabeunido.com':           WP + 'Club_Arabe_Unido_2009.svg',
   'swanseacity.com':          WP + 'Swansea_City_AFC_logo.svg',
   'fcmulhouse.net':           WP + 'Logo_FC_Mulhouse_2020.svg',
 
@@ -486,7 +486,7 @@ const LOGO_MAP = {
   'lda.cr':                   WP + 'Alajuelense.svg',
   'clubalianzalima.com.pe':   WP + 'Alianza_Lima.svg',
   'arka.gdynia.pl':           WP + 'Arka_Gdynia.svg',
-  'asmarsa.com':              WP + 'AS_Marsa.svg',
+  'asmarsa.com':              WP + 'AS_Marsa.png',
   'asec.ci':                  WP + 'ASEC_Mimosas.svg',
   'atalanta.it':              WP + 'Atalanta.svg',
   'atlantefc.mx':             WP + 'Atlante.svg',
@@ -523,7 +523,7 @@ const LOGO_MAP = {
   'ftf.org.tn':               WP + 'CO_Transports.svg',
   'fck.dk':                   WP + 'Copenhagen.svg',
   'cpfc.co.uk':               WP + 'Crystal_Palace.svg',
-  'css.org.tn':               WP + 'CS_Sfaxien.svg',
+  'css.org.tn':               WP + 'Logo-club-sportif-sfaxien.svg',
   'dalianpro.com':            WP + 'Dalian_Shide.svg',
   'defensorsporting.com.uy':  WP + 'Defensor_Sporting.svg',
   'clubmunicipal.pe':         WP + 'Deportivo_Municipal.svg',
@@ -562,7 +562,7 @@ const LOGO_MAP = {
   'ifkgoteborg.se':           WP + 'IFK_Goteborg.svg',
   'dimoficial.com':           WP + 'Independiente_Medellin.svg',
   'ictfc.com':                WP + 'Inverness_CT.svg',
-  'ismailyclub.com':          WP + 'Ismaily.svg',
+  'ismailyclub.com':          WP + 'Ismaily.png',
   'fcistres.fr':              WP + 'Istres.svg',
   'chiapasfc.com':            WP + 'Jaguares_de_Chiapas.svg',
   'jomocosmos.co.za':         WP + 'Jomo_Cosmos.svg',
