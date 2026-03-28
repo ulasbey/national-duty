@@ -168,7 +168,7 @@ function LegendaryScreen({ onSelectMode, onBack, t }) {
 }
 
 // ── Main Home Screen ──────────────────────────────────────────────────────────
-export default function StartScreen({ onSelectMode, onShowLeaderboard, onShowGlobalLeaderboard, onShowStats, difficulty = 'normal', onDifficultyChange, lang, toggleLang, t }) {
+export default function StartScreen({ onSelectMode, onShowLeaderboard, onShowGlobalLeaderboard, onShowStats, difficulty = 'normal', onDifficultyChange, lang, toggleLang, t, dailyStreak = 0 }) {
     const [view, setView] = useState('home'); // 'home' | 'legendary'
     const dailyDone = isDailyDone();
 
@@ -247,6 +247,11 @@ export default function StartScreen({ onSelectMode, onShowLeaderboard, onShowGlo
                     <div className="relative flex items-center justify-between px-5 pt-3 pb-1">
                         <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-emerald-400/80">{t('start.daily')}</span>
                         <div className="flex items-center gap-2">
+                            {dailyStreak >= 2 && (
+                                <span className="text-[10px] font-black px-2 py-0.5 rounded-full bg-orange-500/20 text-orange-300 border border-orange-500/30 animate-streak-pop">
+                                    🔥{dailyStreak}
+                                </span>
+                            )}
                             {dailyDone && <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">✓ {t('end.shared').replace('!', '')}</span>}
                             <span className="text-[10px] text-emerald-400/60 font-medium">{getTodayLabel(lang)}</span>
                         </div>

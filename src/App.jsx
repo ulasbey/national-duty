@@ -12,6 +12,7 @@ import translations from './data/translations';
 import { isSoundOn, toggleSound, playDing, playFail, playTick, playStadiumSound, playComplete, playGameOver } from './lib/sounds';
 import { recordGame } from './lib/stats';
 import { shareResult } from './lib/shareCard';
+import { recordDailyStreak, getActiveStreak } from './lib/dailyStreak';
 
 // ── Difficulty ────────────────────────────────────────────────────────────────
 
@@ -407,6 +408,7 @@ function App() {
       if (mode === 'daily') {
         const today = new Date().toISOString().split('T')[0];
         try { localStorage.setItem('ndDailyResult', JSON.stringify({ date: today, score: finalScore, correctCount })); } catch {}
+        recordDailyStreak();
       }
       if (!muted) {
         if (correctCount > modeTeams.length / 2) playComplete();
@@ -545,6 +547,7 @@ function App() {
           lang={lang}
           toggleLang={toggleLang}
           t={t}
+          dailyStreak={getActiveStreak()}
         />
         {showScoreBoard && <ScoreBoard onClose={() => setShowScoreBoard(false)} t={t} lang={lang} />}
         {showStats      && <StatsModal onClose={() => setShowStats(false)} t={t} lang={lang} />}

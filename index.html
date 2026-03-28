@@ -9,6 +9,22 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="description" content="Guess the National Team from 11 club logos on a football pitch!" />
     <title>National Duty ⚽</title>
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:title"       content="National Duty ⚽" />
+    <meta property="og:description" content="Guess the national team from 11 club logos. Daily challenge + legendary squads!" />
+    <meta property="og:image"       content="/pitchmind.png" />
+    <meta property="og:url"         content="https://nationalduty.app" />
+    <meta name="twitter:card"       content="summary_large_image" />
+    <meta name="twitter:title"      content="National Duty ⚽" />
+    <meta name="twitter:description" content="Guess the national team from 11 club logos. Daily challenge + legendary squads!" />
+    <meta name="twitter:image"      content="/pitchmind.png" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,5 +36,10 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'));
+      }
+    </script>
   </body>
 </html>

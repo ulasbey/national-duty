@@ -2,17 +2,27 @@
 // Generates a 1080×1120 PNG and tries native share → download → clipboard fallback.
 
 const MODE_COLORS = {
-  current: '#3b82f6',
-  iconic:  '#f59e0b',
-  mixed:   '#a855f7',
-  daily:   '#10b981',
+  current:  '#3b82f6',
+  iconic:   '#f59e0b',
+  mixed:    '#a855f7',
+  daily:    '#10b981',
+  worldcup: '#facc15',
+  euro:     '#60a5fa',
+  conmebol: '#4ade80',
+  concacaf: '#f87171',
+  afcon:    '#fb923c',
 }
 
 const MODE_LABELS = {
-  current: 'Current Squads',
-  iconic:  'Iconic Squads',
-  mixed:   'Mixed Mode',
-  daily:   'Daily Challenge',
+  current:  'Current Squads',
+  iconic:   'Iconic Squads',
+  mixed:    'Mixed Legends',
+  daily:    'Daily Challenge',
+  worldcup: '🌍 World Cup',
+  euro:     '🇪🇺 UEFA Euro',
+  conmebol: '🌎 Copa América',
+  concacaf: '🏆 Gold Cup',
+  afcon:    '🌍 AFCON',
 }
 
 function drawRoundRect(ctx, x, y, w, h, r) {
@@ -69,11 +79,33 @@ export async function generateShareImage({ mode, score, correctCount, totalQuest
   ctx.font = `600 38px ${font}`
   ctx.fillText('⚽  NATIONAL DUTY', cx, 108)
 
-  // ── Big emoji ────────────────────────────────────────────────
+  // ── Mode trophy icon ─────────────────────────────────────────
   const pct = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0
+  const TROPHY_ICONS = {
+    worldcup: '/icons/trophies/world-cup.png',
+    euro:     '/icons/trophies/euro-cup.png',
+    conmebol: '/icons/trophies/copa-america.png',
+    concacaf: '/icons/trophies/gold-cup.png',
+    afcon:    '/icons/trophies/afcon-cup.png',
+    iconic:   '/icons/trophies/master-trophy.png',
+    mixed:    '/icons/trophies/master-trophy.png',
+    daily:    '/icons/trophies/master-trophy.png',
+  }
+  const trophySrc = TROPHY_ICONS[mode]
+  if (trophySrc) {
+    try {
+      const trophyImg = await new Promise((res, rej) => {
+        const img = new Image(); img.onload = () => res(img); img.onerror = rej; img.src = trophySrc;
+      })
+      const tSize = 200
+      ctx.drawImage(trophyImg, cx - tSize / 2, 150, tSize, tSize)
+    } catch { /* fall through to emoji */ }
+  }
+
+  // ── Big emoji ────────────────────────────────────────────────
   const emoji = pct === 100 ? '🏆' : pct >= 70 ? '🌟' : pct >= 40 ? '⚽' : '😅'
   ctx.font = '180px serif'
-  ctx.fillText(emoji, cx, 370)
+  ctx.fillText(emoji, cx, 420)
 
   // ── Mode badge ───────────────────────────────────────────────
   const bw = 290, bh = 56, bx = cx - bw / 2, by = 410
