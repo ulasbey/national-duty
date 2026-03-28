@@ -161,16 +161,7 @@ function hashStr(s) {
   for (let i = 0; i < s.length; i++) h = ((h << 5) - h) + s.charCodeAt(i) | 0;
   return h;
 }
-function getDailyTeams() {
-  const seed = new Date().toISOString().split('T')[0];
-  const rng = mulberry32(hashStr(seed));
-  const shuffled = [...teamsData];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(rng() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled.slice(0, DAILY_COUNT);
-}
+// getDailyTeams() removed — daily logic lives inside modeTeams useMemo (uses state teamsData)
 
 const MODE_META = {
   current:  { icon: '🏟️', key: 'current',  color: 'text-blue-300',    bg: 'bg-blue-500/10 border-blue-500/20',     badge: 'Current' },
@@ -283,13 +274,14 @@ function App() {
   const modeTeams = useMemo(() => {
     let filtered = [];
     if (mode === 'daily') {
-      const today = new Date().toISOString().split('T')[0];
-      const seed = [...today].reduce((acc, char) => acc + char.charCodeAt(0), 0);
-      const shuffled = [...teamsData].sort((a, b) => {
-        const sA = Math.sin(seed + a.id) * 10000;
-        const sB = Math.sin(seed + b.id) * 10000;
-        return (sA - Math.floor(sA)) - (sB - Math.floor(sB));
-      });
+      // UTC date → same 5 questions for everyone worldwide, resets at UTC midnight
+      const utcDate = new Date().toISOString().split('T')[0]; // e.g. "2025-03-28"
+      const rng = mulberry32(hashStr(utcDate));
+      const shuffled = [...teamsData];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(rng() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
       filtered = shuffled.slice(0, DAILY_COUNT);
     } else if (mode === 'current') {
       filtered = teamsData.filter(t => t.mode !== 'iconic');
